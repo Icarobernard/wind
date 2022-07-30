@@ -29,7 +29,6 @@ export default function Home() {
         .then((data) => {
           setCity(data.name)
           setClimate(data.main.temp)
-          console.log(data)
         })
     }
   }, [coordinates])
