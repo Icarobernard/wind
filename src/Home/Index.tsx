@@ -11,7 +11,7 @@ export default function Home() {
   const [zoom, setZoom] = useState(14)
   const [showMessage, setShowMessage] = useState(false)
   const map: any = useRef(null)
-  const mapContainer = useRef(null)
+  const mapContainer: any = useRef(null)
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(function (position) {
       setCoordinates({ lat: position.coords.latitude, long: position.coords.longitude })
