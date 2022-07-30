@@ -29,14 +29,13 @@ npm run dev
 yarn dev
 ```
 
-
 Verifique a implantação navegando para seu endereço de servidor no navegador de sua preferência.
 
 ```sh
 127.0.0.1:5173
 http://localhost:5173
 ```
-
+![alt text](https://i.imgur.com/PUX7GLm.png)
 ## License
 
 MIT
